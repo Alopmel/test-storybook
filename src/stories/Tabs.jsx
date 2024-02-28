@@ -96,7 +96,7 @@ export const Tabs = ({currentTabs}) => {
                         <td><button>Gestionar</button>  </td>
                     </tr>
                     <tr>
-                    <td>117176</td>
+                        <td>117176</td>
                         <td>Tisci, Simona</td>
                         <td>Reclamaciones Oficiales</td>
                         <td>21/02/2024 01:00</td>
