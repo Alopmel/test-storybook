@@ -1,0 +1,83 @@
+body,html{
+    font-family: sans-serif;
+}
+
+.tabs{
+display: flex;
+justify-content: center;
+
+}
+.tabs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button-tabs-active{
+    all: unset;
+    text-align: center;
+    height: 60px;
+    width: 250px;
+    background-color:  rgb(27, 102, 209);
+    border-radius: 20px 20px 0px 0px ;
+    color: white;
+}
+
+.button-tabs{
+    all: unset;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    background-color:  rgb(253, 251, 251);
+    border-radius: 20px 20px 0px 0px ;
+    color: rgb(177, 177, 177);
+}
+
+.tabs-input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    padding: 20px 8px 7px 7px;
+    width: 450px;
+    margin: 10px;
+}
+
+.tabs-content-select{
+    display: flex;
+}
+
+.tabs-label-search{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    font-size: 11px;
+    color:rgb(58, 58, 58);
+    margin-left: 20px;
+
+}
+
+.tabs-select-search{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    width: 468px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+.tabs-table{
+    margin-top: 20px;
+    padding: 10px;
+}
+table{
+    border: 1px solid  rgb(174, 174, 174);
+    border-radius: 15px;
+    padding: 10px;
+    width: 98%;
+}
+
+

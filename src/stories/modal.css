@@ -1,0 +1,73 @@
+body,html{
+    font-family: sans-serif;
+    background-color: rgba(123, 159, 210, 0.659);
+}
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modal-content{
+    /*display: inline-block;*/
+    width: 600px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-close{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+h1 {
+    color : rgb(27, 102, 209);
+}
+
+.modal-content-search{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-label-search{
+    color : rgb(105, 105, 105);
+    font-size: 11px;
+    padding-left: 7px;
+}
+
+.modal-select-search{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    padding: 2px 0px 7px 7px;
+}
+
+.modal-content-input{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.modal-input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    padding: 30px 0px 7px 7px;
+    width: 88px;
+}
+
+.modal-content-button{
+    display: flex;
+    align-items: flex-end;
+}
+.modal-button{
+    background-color : rgb(27, 102, 209);
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    margin: 0px 0px 3px 15px;
+}
