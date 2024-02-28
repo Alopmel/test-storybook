@@ -78,32 +78,7 @@ export const Tabs = ({currentTabs}) => {
                 
             </div>
             <div className="tabs-table">
-                <table>
-                    <tr className='tabs-tr'>
-                        <th className='th-tabs'>Nº Emp</th>
-                        <th className='th-tabs'>Nombre</th>
-                        <th className='th-tabs'>Departamento</th>
-                        <th className='th-tabs'>Fecha de Solicitud</th>
-                        <th className='th-tabs'>Estado</th>
-                        <th className='th-tabs'></th>
-                    </tr>
-                    <tr>
-                        <td>102944</td>
-                        <td>Monederos Yebenes, Miguel</td>
-                        <td>Flota B737</td>
-                        <td>21/02/2024 01:00</td>
-                        <td>Pendiente</td>
-                        <td><button>Gestionar</button>  </td>
-                    </tr>
-                    <tr>
-                        <td>117176</td>
-                        <td>Tisci, Simona</td>
-                        <td>Reclamaciones Oficiales</td>
-                        <td>21/02/2024 01:00</td>
-                        <td>Pendiente</td>
-                        <td><button>Gestionar</button>  </td>
-                    </tr>
-                </table>
+               
             </div>
         </div>   
     </div>
