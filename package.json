@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-icons": "^5.0.1"
+  },
+  "scripts": {
+    "chromatic": "chromatic --exit-zero-on-changes"
+  }
+}
